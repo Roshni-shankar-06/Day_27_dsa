@@ -9,11 +9,4 @@ class Solution {
             currentSum += nums[right];
 
             // Shrink the window from the left as long as the condition is met
-            while (currentSum >= target) {
-                minLength = Math.min(minLength, right - left + 1);
-                currentSum -= nums[left];
-                left++;
-            }
-        }
 
-      
