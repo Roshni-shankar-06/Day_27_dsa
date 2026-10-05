@@ -17,11 +17,7 @@ class Trie {
         root = new TrieNode();
     }
     
-    // Inserts a word into the trie
-    public void insert(String word) {
-        TrieNode curr = root;
-        for (int i = 0; i < word.length(); i++) {
-            int index = word.charAt(i) - 'a';
+
          
    
   
