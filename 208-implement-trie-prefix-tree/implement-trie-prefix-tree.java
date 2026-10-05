@@ -27,13 +27,7 @@ class Trie {
             }
             curr = curr.children[index];
         }
-        curr.isWord = true;
-    }
-    
-    // Returns true if the string word is in the trie
-    public boolean search(String word) {
-        TrieNode curr = root;
-    
+   
   
       
          
