@@ -50,9 +50,4 @@ class Trie {
             int index = prefix.charAt(i) - 'a';
             if (curr.children[index] == null) {
                 return false;
-            }
-            curr = curr.children[index];
-        }
-        return true;
-    }
-}
+         
