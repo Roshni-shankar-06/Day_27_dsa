@@ -22,11 +22,7 @@ class Trie {
         TrieNode curr = root;
         for (int i = 0; i < word.length(); i++) {
             int index = word.charAt(i) - 'a';
-            if (curr.children[index] == null) {
-                curr.children[index] = new TrieNode();
-            }
-            curr = curr.children[index];
-        }
+         
    
   
       
