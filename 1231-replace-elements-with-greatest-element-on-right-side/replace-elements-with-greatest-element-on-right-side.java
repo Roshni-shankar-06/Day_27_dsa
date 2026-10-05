@@ -8,8 +8,4 @@ class Solution {
             int currentVal = arr[i]; // Store the original value before overwriting
             arr[i] = maxOfRight;     // Replace current element with the max seen so far
             maxOfRight = Math.max(maxOfRight, currentVal); // Update the max for the next element
-        }
         
-        return arr;
-    }
-}
