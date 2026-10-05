@@ -27,9 +27,4 @@ class Solution {
             // Remove the lexicographically smallest destination to prevent reusing the ticket.
             String nextAirport = destinations.poll();
             dfs(nextAirport, graph, itinerary);
-        }
-        
-        // Step 4: Backtracking step. Add to the front of the list when dead-end is reached.
-        itinerary.addFirst(airport);
-    }
-}
+    
