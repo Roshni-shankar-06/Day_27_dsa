@@ -12,7 +12,3 @@ class Solution {
                     score += 1 << depth; // 2^depth
                 }
             }
-        }
-        return score;
-    }
-}
