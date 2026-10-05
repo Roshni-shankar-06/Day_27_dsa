@@ -16,11 +16,5 @@ class Solution {
         // Step 2: Start DFS from the mandatory starting airport "JFK".
         dfs("JFK", graph, itinerary);
         
-        return itinerary;
-    }
-    
-    private void dfs(String airport, Map<String, PriorityQueue<String>> graph, LinkedList<String> itinerary) {
-        PriorityQueue<String> destinations = graph.get(airport);
-        
     
     
