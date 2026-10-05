@@ -17,10 +17,3 @@ class Solution {
                 // we greedily patch 'miss' itself into the array.
                 // This doubles our range to [1, 2 * miss - 1]
                 miss += miss;
-                patches++;
-            }
-        }
-        
-        return patches;
-    }
-}
