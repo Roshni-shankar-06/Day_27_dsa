@@ -3,7 +3,4 @@ class Solution {
         // Initialize the maximum element from the right side as -1
         int maxOfRight = -1;
         
-        // Traverse the array backwards from right to left
-        for (int i = arr.length - 1; i >= 0; i--) {
-            int currentVal = arr[i]; // Store the original value before overwriting
-         
+     
