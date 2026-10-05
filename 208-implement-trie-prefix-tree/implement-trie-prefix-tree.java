@@ -36,13 +36,7 @@ class Trie {
         for (int i = 0; i < word.length(); i++) {
             int index = word.charAt(i) - 'a';
             if (curr.children[index] == null) {
-                return false;
-            }
-            curr = curr.children[index];
-        }
-        return curr.isWord;
-    }
-    
+             
   
       
          
