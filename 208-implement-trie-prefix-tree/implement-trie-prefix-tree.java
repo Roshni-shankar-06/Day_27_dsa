@@ -33,10 +33,7 @@ class Trie {
     // Returns true if the string word is in the trie
     public boolean search(String word) {
         TrieNode curr = root;
-        for (int i = 0; i < word.length(); i++) {
-            int index = word.charAt(i) - 'a';
-            if (curr.children[index] == null) {
-             
+    
   
       
          
