@@ -16,7 +16,4 @@ class Solution {
             }
         }
 
-        // If minLength wasn't updated, it means no valid subarray exists
-        return minLength == Integer.MAX_VALUE ? 0 : minLength;
-    }
-}
+      
