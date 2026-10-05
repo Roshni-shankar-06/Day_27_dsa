@@ -22,9 +22,5 @@ class Solution {
     private void dfs(String airport, Map<String, PriorityQueue<String>> graph, LinkedList<String> itinerary) {
         PriorityQueue<String> destinations = graph.get(airport);
         
-        // Step 3: Travel through all available edges (tickets) out of this airport.
-        while (destinations != null && !destinations.isEmpty()) {
-            // Remove the lexicographically smallest destination to prevent reusing the ticket.
-            String nextAirport = destinations.poll();
-            dfs(nextAirport, graph, itinerary);
+    
     
