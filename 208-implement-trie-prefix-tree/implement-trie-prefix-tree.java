@@ -8,15 +8,7 @@ class Trie {
 
         public TrieNode() {
             children = new TrieNode[26]; // 26 letters for lowercase English letters
-            isWord = false;
-        }
-    }
-
-    // Initializes the trie object
-    public Trie() {
-        root = new TrieNode();
-    }
-    
+       
 
          
    
