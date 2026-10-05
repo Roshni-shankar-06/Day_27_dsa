@@ -43,9 +43,6 @@ class Trie {
         return curr.isWord;
     }
     
-    // Returns true if there is a previously inserted string word that has the prefix
-    public boolean startsWith(String prefix) {
-        TrieNode curr = root;
-        for (int i = 0; i < prefix.length(); i++) {
+  
       
          
